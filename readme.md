@@ -8,7 +8,7 @@ Cifradores de texto python.
 </ul>
 
 ## Modo de uso:
-Los archivos tienen dos funciones que son las importante: <codes>cifrar("texto")</codes> y <codes>des_cifrar("qbuql")</codes>, tambien puedes testear las funciones con la funcion <codes>test(show=False)</codes>. O puedes llamar al interprete con solo llamar a la funcion <codes>main()</codes>.
+Los archivos tienen dos funciones que son las importante: `cifrar("texto")` y `des_cifrar("qbuql")`, tambien puedes testear las funciones con la funcion `test(show=False)`. O puedes llamar al interprete con solo llamar a la funcion <codes>main()</codes>.
 ```python
 import cifrador-M4X1 as m4x1;
 c_text=m4x1.cifrar("hola");#Ciframos.
