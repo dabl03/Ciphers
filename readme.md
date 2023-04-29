@@ -13,7 +13,7 @@ Los archivos tienen dos funciones que son las importante: `cifrar("texto")` y `d
 import cifrador_M4X1 as m4x1;
 c_text=m4x1.cifrar("hola");#Ciframos.
 print("Hola cifrado es: "+c_text);
-print(c_text+"desifrado es: "+m4x1.des_cifrar(c_text));#Desiframos.
+print(c_text+" desifrado es: "+m4x1.des_cifrar(c_text));#Desiframos.
 m4x1.test();
 m4x1.main();#Interprete run.
 ```
