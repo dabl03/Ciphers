@@ -1,7 +1,5 @@
 # Ciphers
 
-
-
 Cifradores de texto python.
 
 ## Cifrados disponibles:
@@ -10,14 +8,22 @@ Cifradores de texto python.
 </ul>
 
 ## Modo de uso:
-Los archivos tienen dos funciones que son las importante: `cifrar("texto")` y `des_cifrar("qbuql")`, tambien puedes testear las funciones con la funcion `test(show=False)`. O puedes llamar al interprete con solo llamar a la funcion `main()`.
+Los archivos tienen dos funciones que son las importante: `m4x1.cifrar("texto")` y `m4x1.des_cifrar("qbuql")`, también puedes testear las funciones con la función `test(show=False)`. O puedes llamar al interprete con solo llamar a la función `main()`.
 ```python
-import cifrador_M4X1 as m4x1;
+from cifrador_M4X1 import *;
 c_text=m4x1.cifrar("hola");#Ciframos.
 print("Hola cifrado es: "+c_text);
-print(c_text+" desifrado es: "+m4x1.des_cifrar(c_text));#Desiframos.
-m4x1.test();
-m4x1.main();#Interprete run.
+print(c_text+" descifrado es: "+m4x1.des_cifrar(c_text));#Desciframos.
+test();
+main();#Interprete run.
+```
+O también puedes llamar al interprete o al tester desde la consola:
+```bash
+echo Testeamos la función con --t o tester.
+python -m ./cifrador_M4X1.py --tester
+echo Ejecutamos normalmente:
+python -m ./cifrador_M4X1.py
+echo Para más información de las opciones disponibles ingrese --h o --help
 ```
 ## Dependencia:
 Solo el interprete python 3.8 bastara.
