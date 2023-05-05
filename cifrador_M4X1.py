@@ -81,6 +81,7 @@ def main():
 
 if __name__ == '__main__':
     from sys import argv;
+    mode=[];
     if len(argv)>1:
         mode=base.tratar_arg(argv);
     if "tester" in mode:
